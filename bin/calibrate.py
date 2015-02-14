@@ -4,10 +4,9 @@ import os
 sys.path.append(os.path.join("..", "lib"))
 from printer import Printer
 
-#2, 27, 3, 8, 1, 12
 if __name__ == "__main__":
 
-    towers = [
+    orion_towers = [
         (0, 0, 0),
         (-65, -35, 0),
         (-65, 35, 0),
@@ -27,7 +26,7 @@ if __name__ == "__main__":
     p.write("G4 S1")
     p.write("G1 X36 Y-35")
     p.write("G4 S1")
-    for x, y, z in towers:
+    for x, y, z in orion_towers:
         p.write("G1 X{0} Y{1} Z{2}".format(x, y, z))
         #p.write("G4 S1")
         #p.write("G1 Z{0}".format(z))

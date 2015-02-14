@@ -1,1 +1,1 @@
-# DeltaZCompensator
+# PyZComp

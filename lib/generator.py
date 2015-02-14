@@ -81,7 +81,7 @@ class ZMapGenerator(object):
         self.axes.draw_artist(points)
         self.figure.canvas.blit(self.bbox)
 
-    def main(self, use_computed_offsets=False, recompute_offsets=False):
+    def main(self, use_computed_offsets=False, recompute_offsets=False, use_interp=False):
         self.points = []
         self.points_adjusted = []
         self.figure, self.axes = plt.subplots(1, 1)
@@ -96,12 +96,15 @@ class ZMapGenerator(object):
         self.generate_circumference()
         self.generate_coordinates()
 
-        if use_computed_offsets:
+        if use_computed_offsets or use_interp:
             self.load_zmap()
 
-        self.configure(use_computed_offsets=use_computed_offsets, recompute_offsets=recompute_offsets)
+        if use_interp:
+            self.generate_kdtree(*self.zmap)
 
-    def configure(self, use_computed_offsets=False, recompute_offsets=False):
+        self.configure(use_computed_offsets=use_computed_offsets, recompute_offsets=recompute_offsets, use_interp=use_interp)
+
+    def configure(self, use_computed_offsets=False, recompute_offsets=False, use_interp=False):
         self.printer.write("G28")
         time.sleep(self.wth)
         self.printer.write("G1 X0 Y0 Z0 F{0}".format(self.travel))
@@ -116,16 +119,41 @@ class ZMapGenerator(object):
             for where, x, y in sorted(self.points, key=lambda g: g[1], reverse=True):
                 if where == 'inside':
 
-                    if use_computed_offsets:
+                    if use_interp:
+                        z = -self.get_z_offset_kdtree(x, y)
+                        print "Z Offset from KDTree: ", z
+                    elif use_computed_offsets:
                         z = -self.get_z_offset_literal(x, y)
+                        print "Z Offset From Map: ", z
 
-                    gcode = "G1 X{0} Y{1} Z{2} F{3}".format(x, y, z, self.point_speed)
-                    self.printer.write(gcode)
+                    gcode = "G1 S1 X{0} Y{1} Z{2} F{3}"
+                    gcode_go = gcode.format(x, y, z, self.point_speed)
+                    self.printer.write(gcode_go)
                     time.sleep(self.wtp)
                     measurement = self.dial.read()
 
+                    if recompute_offsets:
+                        while measurement < -0.01 or measurement > 0.01:
+                            old_z = z
+                            if measurement < 0:
+                                z = z + abs(measurement)
+                            else:
+                                z = z - abs(measurement)
+                            print "{0} -> {1}".format(old_z, z)
+                            gcode_go = gcode.format(x, y, 15, self.point_speed)
+                            print "PRINTER GO UP: ", gcode_go
+                            self.printer.write(gcode_go)
+                            gcode_go = gcode.format(x, y, z, self.point_speed)
+                            print "PRINTER GO DOWN: ", gcode_go
+                            self.printer.write(gcode_go)
+                            time.sleep(self.wtp)
+                            measurement = self.dial.read()
+                            print "Did it work? ", measurement
+                        measurement = z
+
                     print "X: {0}, Y: {1}, Z: {2}, M: {3}".format(x, y, z, measurement)
-                    f.write("{0},{1},{2}\n".format(x, y, measurement))
+                    if not use_computed_offsets or recompute_offsets:
+                        f.write("{0},{1},{2}\n".format(x, y, measurement))
                     self.points_adjusted.append((x, y, measurement))
                     self.modify_point(x, y, color='orange')
 
@@ -186,7 +214,7 @@ class ZMapGenerator(object):
         self.tree = cKDTree(self.XY)
 
     def get_z_offset_literal(self, x, y):
-        XYZ= zip(*self.zmap)
+        XYZ = zip(*self.zmap)
         for triplet in XYZ:
             if triplet[0] == x and triplet[1] == y:
                 return triplet[2]
@@ -194,9 +222,9 @@ class ZMapGenerator(object):
 
     def get_z_offset_kdtree(self, x, y):
         xy = np.array([x,y])
-        distances, indices = self.tree.query(xy, k=3)
+        distances, indices = self.tree.query(xy, k=2)
         z_vals = self.Z[indices]
-        delta_z = np.average(z_vals, weights=[(1.0/j) if j else 0 for j in distances])
+        delta_z = np.average(z_vals, weights=[(0.001/j) if j else 1 for j in distances])
         if not delta_z:
             delta_z = 0.00
         return delta_z

@@ -32,10 +32,10 @@ if __name__ == "__main__":
     point_spacing = 20          # size of point spacing in mm, less takes longer
 
     # COM Port, set to whatever RH uses.
-    com_port = "/dev/ttyACM1"
+    com_port = "/dev/ttyACM0"
     baud_rate = 115200
 
-    com_port_di = "/dev/ttyACM0"
+    com_port_di = "/dev/ttyACM1"
     baud_rate_di = 115200
 
     printer = OrionDelta(com_port, baud_rate)
@@ -57,8 +57,5 @@ if __name__ == "__main__":
         step_size=point_spacing,
         csv_file=csv,)
 
-    zm.main(use_computed_offsets=True, recompute_offsets=True)
+    zm.main(use_computed_offsets=False, recompute_offsets=False, use_interp=False)
     zm.generate_buildplate_image()
-
-    #zm.main(use_computed_offsets=True, recompute_offsets=True)
-    #zm.generate_buildplate_image()
