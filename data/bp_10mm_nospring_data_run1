@@ -1,0 +1,571 @@
+Connected to printer on port /dev/ttyACM0
+Loaded ZMAP
+Working on point 1 of 225 (3.56038411458e-06 minutes left)
+Working on point 2 of 225 (0.000133804480235 minutes left)
+Working on point 3 of 225 (2.64644622803e-05 minutes left)
+Working on point 4 of 225 (2.98579533895e-05 minutes left)
+Working on point 5 of 225 (2.88486480713e-05 minutes left)
+Working on point 6 of 225 (2.61068344116e-05 minutes left)
+Working on point 7 of 225 (2.51213709513e-05 minutes left)
+Working on point 8 of 225 (2.24192937215e-05 minutes left)
+Working on point 9 of 225 (2.48908996582e-05 minutes left)
+Working on point 10 of 225 (2.56299972534e-05 minutes left)
+Working on point 11 of 225 (2.46604283651e-05 minutes left)
+Working on point 12 of 225 (2.53915786743e-05 minutes left)
+Working on point 13 of 225 (2.44299570719e-05 minutes left)
+Working on point 14 of 225 (2.51531600952e-05 minutes left)
+Working on point 15 of 225 (2.41994857788e-05 minutes left)
+Working on point 16 of 225 (2.40842501322e-05 minutes left)
+Working on point 17 of 225 (7.9345703125e-05 minutes left)
+Working on point 18 of 225 (2.79664993286e-05 minutes left)
+Working on point 19 of 225 (2.70128250122e-05 minutes left)
+Working on point 20 of 225 (2.3623307546e-05 minutes left)
+Working on point 21 of 225 (2.02655792236e-05 minutes left)
+Working on point 22 of 225 (2.41994857788e-05 minutes left)
+Working on point 23 of 225 (2.32776006063e-05 minutes left)
+Working on point 24 of 225 (2.39610671997e-05 minutes left)
+Working on point 25 of 225 (1.98682149251e-05 minutes left)
+Working on point 26 of 225 (1.97688738505e-05 minutes left)
+Working on point 27 of 225 (2.04563140869e-05 minutes left)
+Working on point 28 of 225 (1.95701917013e-05 minutes left)
+Working on point 29 of 225 (2.3365020752e-05 minutes left)
+Working on point 30 of 225 (2.24709510803e-05 minutes left)
+Working on point 31 of 225 (2.23557154338e-05 minutes left)
+Working on point 32 of 225 (1.99397404989e-05 minutes left)
+Working on point 33 of 225 (1.90734863281e-05 minutes left)
+Working on point 34 of 225 (1.89741452535e-05 minutes left)
+Working on point 35 of 225 (2.26497650146e-05 minutes left)
+Working on point 36 of 225 (1.87754631042e-05 minutes left)
+Working on point 37 of 225 (1.94231669108e-05 minutes left)
+Working on point 38 of 225 (1.8576780955e-05 minutes left)
+Working on point 39 of 225 (1.84774398804e-05 minutes left)
+Working on point 40 of 225 (1.9113222758e-05 minutes left)
+Working on point 41 of 225 (1.82787577311e-05 minutes left)
+Working on point 42 of 225 (1.81794166565e-05 minutes left)
+Working on point 43 of 225 (1.80800755819e-05 minutes left)
+Working on point 44 of 225 (1.79807345072e-05 minutes left)
+Working on point 45 of 225 (2.14576721191e-05 minutes left)
+Working on point 46 of 225 (2.06271807353e-05 minutes left)
+Working on point 47 of 225 (1.76827112834e-05 minutes left)
+Working on point 48 of 225 (1.75833702087e-05 minutes left)
+Working on point 49 of 225 (1.74840291341e-05 minutes left)
+Working on point 50 of 225 (1.73846880595e-05 minutes left)
+Working on point 51 of 225 (1.72853469849e-05 minutes left)
+Working on point 52 of 225 (1.99357668559e-05 minutes left)
+Working on point 53 of 225 (2.05039978027e-05 minutes left)
+Working on point 54 of 225 (1.97052955627e-05 minutes left)
+Z Offset From Map:  0.12
+X: -35, Y: -65, Z: 0.12, M: -0.0
+Working on point 55 of 225 (12.2256207069 minutes left)
+Z Offset From Map:  0.09
+X: -25, Y: -65, Z: 0.09, M: -0.01
+Working on point 56 of 225 (7.63536675771 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: -65, Z: 0.08, M: -0.0
+Working on point 57 of 225 (7.59040002823 minutes left)
+Z Offset From Map:  0.07
+X: -5, Y: -65, Z: 0.07, M: -0.0
+Working on point 58 of 225 (7.54688603481 minutes left)
+Z Offset From Map:  0.08
+X: 5, Y: -65, Z: 0.08, M: -0.0
+Working on point 59 of 225 (7.50360405445 minutes left)
+Z Offset From Map:  0.09
+X: 15, Y: -65, Z: 0.09, M: -0.0
+Working on point 60 of 225 (7.45456802845 minutes left)
+Z Offset From Map:  0.12
+X: 25, Y: -65, Z: 0.12, M: 0.01
+Working on point 61 of 225 (7.42235264778 minutes left)
+Z Offset From Map:  0.18
+X: 35, Y: -65, Z: 0.18, M: -0.01
+Working on point 62 of 225 (7.35629339218 minutes left)
+Z Offset From Map:  0.16
+X: -45, Y: -55, Z: 0.16, M: -0.02
+Working on point 63 of 225 (10.057345891 minutes left)
+Z Offset From Map:  0.12
+X: -35, Y: -55, Z: 0.12, M: -0.0
+Working on point 64 of 225 (7.28234143655 minutes left)
+Z Offset From Map:  0.11
+X: -25, Y: -55, Z: 0.11, M: -0.01
+Working on point 65 of 225 (7.23022143046 minutes left)
+Z Offset From Map:  0.1
+X: -15, Y: -55, Z: 0.1, M: -0.01
+Working on point 66 of 225 (7.18451888561 minutes left)
+Z Offset From Map:  0.08
+X: -5, Y: -55, Z: 0.08, M: -0.01
+Working on point 67 of 225 (9.22374488513 minutes left)
+Z Offset From Map:  0.1
+X: 5, Y: -55, Z: 0.1, M: -0.0
+Working on point 68 of 225 (7.09325233698 minutes left)
+Z Offset From Map:  0.11
+X: 15, Y: -55, Z: 0.11, M: -0.0
+Working on point 69 of 225 (9.98949632645 minutes left)
+Z Offset From Map:  0.15
+X: 25, Y: -55, Z: 0.15, M: -0.0
+Working on point 70 of 225 (7.00322318077 minutes left)
+Z Offset From Map:  0.18
+X: 35, Y: -55, Z: 0.18, M: -0.0
+Working on point 71 of 225 (6.9585104545 minutes left)
+Z Offset From Map:  0.19
+X: 45, Y: -55, Z: 0.19, M: -0.0
+Working on point 72 of 225 (7.7826846242 minutes left)
+Z Offset From Map:  0.2
+X: -55, Y: -45, Z: 0.2, M: -0.02
+Working on point 73 of 225 (12.0164130529 minutes left)
+Z Offset From Map:  0.11
+X: -45, Y: -45, Z: 0.11, M: -0.01
+Working on point 74 of 225 (6.82240663767 minutes left)
+Z Offset From Map:  0.12
+X: -35, Y: -45, Z: 0.12, M: -0.0
+Working on point 75 of 225 (6.77931010723 minutes left)
+Z Offset From Map:  0.11
+X: -25, Y: -45, Z: 0.11, M: -0.01
+Working on point 76 of 225 (6.73309693336 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: -45, Z: 0.08, M: -0.02
+Working on point 77 of 225 (6.6950978756 minutes left)
+Z Offset From Map:  0.09
+X: -5, Y: -45, Z: 0.09, M: -0.01
+Working on point 78 of 225 (6.64436352253 minutes left)
+Z Offset From Map:  0.11
+X: 5, Y: -45, Z: 0.11, M: -0.0
+Working on point 79 of 225 (6.59929024378 minutes left)
+Z Offset From Map:  0.13
+X: 15, Y: -45, Z: 0.13, M: -0.01
+Working on point 80 of 225 (6.54972968499 minutes left)
+Z Offset From Map:  0.19
+X: 25, Y: -45, Z: 0.19, M: -0.0
+Working on point 81 of 225 (6.50981998444 minutes left)
+Z Offset From Map:  0.21
+X: 35, Y: -45, Z: 0.21, M: 0.01
+Working on point 82 of 225 (7.54544043938 minutes left)
+Z Offset From Map:  0.22
+X: 45, Y: -45, Z: 0.22, M: -0.0
+Working on point 83 of 225 (6.40717497667 minutes left)
+Z Offset From Map:  0.23
+X: 55, Y: -45, Z: 0.23, M: -0.0
+Working on point 84 of 225 (6.37304959297 minutes left)
+Z Offset From Map:  0.19
+X: -65, Y: -35, Z: 0.19, M: -0.02
+Working on point 85 of 225 (11.6015761693 minutes left)
+Z Offset From Map:  0.11
+X: -55, Y: -35, Z: 0.11, M: -0.0
+Working on point 86 of 225 (6.28234352271 minutes left)
+Z Offset From Map:  0.1
+X: -45, Y: -35, Z: 0.1, M: -0.01
+Working on point 87 of 225 (6.23631439209 minutes left)
+Z Offset From Map:  0.11
+X: -35, Y: -35, Z: 0.11, M: -0.01
+Working on point 88 of 225 (6.19143183231 minutes left)
+Z Offset From Map:  0.11
+X: -25, Y: -35, Z: 0.11, M: -0.0
+Working on point 89 of 225 (6.14524615606 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: -35, Z: 0.08, M: -0.01
+Working on point 90 of 225 (6.1015137434 minutes left)
+Z Offset From Map:  0.09
+X: -5, Y: -35, Z: 0.09, M: -0.0
+Working on point 91 of 225 (6.06133852005 minutes left)
+Z Offset From Map:  0.1
+X: 5, Y: -35, Z: 0.1, M: -0.01
+Working on point 92 of 225 (6.00403436422 minutes left)
+Z Offset From Map:  0.14
+X: 15, Y: -35, Z: 0.14, M: -0.01
+Working on point 93 of 225 (5.96567173004 minutes left)
+Z Offset From Map:  0.19
+X: 25, Y: -35, Z: 0.19, M: -0.0
+Working on point 94 of 225 (5.91422651609 minutes left)
+Z Offset From Map:  0.22
+X: 35, Y: -35, Z: 0.22, M: -0.0
+Working on point 95 of 225 (5.88778487841 minutes left)
+Z Offset From Map:  0.24
+X: 45, Y: -35, Z: 0.24, M: -0.0
+Working on point 96 of 225 (5.82968640327 minutes left)
+Z Offset From Map:  0.26
+X: 55, Y: -35, Z: 0.26, M: 0.01
+Working on point 97 of 225 (5.78539072673 minutes left)
+Z Offset From Map:  0.26
+X: 65, Y: -35, Z: 0.26, M: 0.01
+Working on point 98 of 225 (5.74078734716 minutes left)
+Z Offset From Map:  0.16
+X: -65, Y: -25, Z: 0.16, M: -0.01
+Working on point 99 of 225 (13.0471844673 minutes left)
+Z Offset From Map:  0.08
+X: -55, Y: -25, Z: 0.08, M: -0.01
+Working on point 100 of 225 (5.6569809715 minutes left)
+Z Offset From Map:  0.09
+X: -45, Y: -25, Z: 0.09, M: -0.02
+Working on point 101 of 225 (5.59534080823 minutes left)
+Z Offset From Map:  0.1
+X: -35, Y: -25, Z: 0.1, M: -0.01
+Working on point 102 of 225 (5.5581017375 minutes left)
+Z Offset From Map:  0.1
+X: -25, Y: -25, Z: 0.1, M: -0.01
+Working on point 103 of 225 (5.51930434704 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: -25, Z: 0.08, M: -0.01
+Working on point 104 of 225 (5.47067827781 minutes left)
+Z Offset From Map:  0.08
+X: -5, Y: -25, Z: 0.08, M: -0.01
+Working on point 105 of 225 (5.42323589325 minutes left)
+Z Offset From Map:  0.1
+X: 5, Y: -25, Z: 0.1, M: -0.0
+Working on point 106 of 225 (5.37636643251 minutes left)
+Z Offset From Map:  0.14
+X: 15, Y: -25, Z: 0.14, M: -0.01
+Working on point 107 of 225 (5.33273656368 minutes left)
+Z Offset From Map:  0.19
+X: 25, Y: -25, Z: 0.19, M: -0.0
+Working on point 108 of 225 (5.2884881258 minutes left)
+Z Offset From Map:  0.22
+X: 35, Y: -25, Z: 0.22, M: -0.0
+Working on point 109 of 225 (5.24192989667 minutes left)
+Z Offset From Map:  0.24
+X: 45, Y: -25, Z: 0.24, M: -0.0
+Working on point 110 of 225 (5.1977758805 minutes left)
+Z Offset From Map:  0.25
+X: 55, Y: -25, Z: 0.25, M: 0.01
+Working on point 111 of 225 (5.15755171776 minutes left)
+Z Offset From Map:  0.25
+X: 65, Y: -25, Z: 0.25, M: -0.0
+Working on point 112 of 225 (5.10659443935 minutes left)
+Z Offset From Map:  0.11
+X: -65, Y: -15, Z: 0.11, M: -0.02
+Working on point 113 of 225 (9.70162658691 minutes left)
+Z Offset From Map:  0.04
+X: -55, Y: -15, Z: 0.04, M: -0.02
+Working on point 114 of 225 (5.01719450951 minutes left)
+Z Offset From Map:  0.06
+X: -45, Y: -15, Z: 0.06, M: -0.01
+Working on point 115 of 225 (4.96971944968 minutes left)
+Z Offset From Map:  0.07
+X: -35, Y: -15, Z: 0.07, M: -0.01
+Working on point 116 of 225 (4.92732692162 minutes left)
+Z Offset From Map:  0.07
+X: -25, Y: -15, Z: 0.07, M: -0.01
+Working on point 117 of 225 (4.88703417778 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: -15, Z: 0.08, M: -0.01
+Working on point 118 of 225 (4.83631094694 minutes left)
+Z Offset From Map:  0.08
+X: -5, Y: -15, Z: 0.08, M: -0.01
+Working on point 119 of 225 (4.79604620934 minutes left)
+Z Offset From Map:  0.1
+X: 5, Y: -15, Z: 0.1, M: -0.01
+Working on point 120 of 225 (4.7387111783 minutes left)
+Z Offset From Map:  0.14
+X: 15, Y: -15, Z: 0.14, M: -0.0
+Working on point 121 of 225 (4.70115356445 minutes left)
+Z Offset From Map:  0.16
+X: 25, Y: -15, Z: 0.16, M: -0.01
+Working on point 122 of 225 (4.65345598062 minutes left)
+Z Offset From Map:  0.2
+X: 35, Y: -15, Z: 0.2, M: -0.0
+Working on point 123 of 225 (4.61531989574 minutes left)
+Z Offset From Map:  0.22
+X: 45, Y: -15, Z: 0.22, M: -0.0
+Working on point 124 of 225 (4.56523032188 minutes left)
+Z Offset From Map:  0.22
+X: 55, Y: -15, Z: 0.22, M: -0.0
+Working on point 125 of 225 (6.21319810549 minutes left)
+Z Offset From Map:  0.22
+X: 65, Y: -15, Z: 0.22, M: -0.0
+Working on point 126 of 225 (4.48246936798 minutes left)
+Z Offset From Map:  0.07
+X: -65, Y: -5, Z: 0.07, M: -0.01
+Working on point 127 of 225 (8.48620707989 minutes left)
+Z Offset From Map:  0.01
+X: -55, Y: -5, Z: 0.01, M: -0.01
+Working on point 128 of 225 (4.38389875094 minutes left)
+Z Offset From Map:  0.02
+X: -45, Y: -5, Z: 0.02, M: -0.01
+Working on point 129 of 225 (4.33810577393 minutes left)
+Z Offset From Map:  0.03
+X: -35, Y: -5, Z: 0.03, M: -0.02
+Working on point 130 of 225 (4.29385411739 minutes left)
+Z Offset From Map:  0.05
+X: -25, Y: -5, Z: 0.05, M: -0.01
+Working on point 131 of 225 (4.25317863623 minutes left)
+Z Offset From Map:  0.06
+X: -15, Y: -5, Z: 0.06, M: -0.01
+Working on point 132 of 225 (4.20357211828 minutes left)
+Z Offset From Map:  0.07
+X: -5, Y: -5, Z: 0.07, M: -0.0
+Working on point 133 of 225 (5.36973969142 minutes left)
+Z Offset From Map:  0.09
+X: 5, Y: -5, Z: 0.09, M: -0.01
+Working on point 134 of 225 (4.11740092436 minutes left)
+Z Offset From Map:  0.12
+X: 15, Y: -5, Z: 0.12, M: -0.0
+Working on point 135 of 225 (4.06333816051 minutes left)
+Z Offset From Map:  0.14
+X: 25, Y: -5, Z: 0.14, M: -0.01
+Working on point 136 of 225 (5.03457558155 minutes left)
+Z Offset From Map:  0.16
+X: 35, Y: -5, Z: 0.16, M: -0.0
+Working on point 137 of 225 (3.97735226949 minutes left)
+Z Offset From Map:  0.18
+X: 45, Y: -5, Z: 0.18, M: -0.01
+Working on point 138 of 225 (3.93225637674 minutes left)
+Z Offset From Map:  0.18
+X: 55, Y: -5, Z: 0.18, M: -0.02
+Working on point 139 of 225 (3.88623820941 minutes left)
+Z Offset From Map:  0.18
+X: 65, Y: -5, Z: 0.18, M: -0.0
+Working on point 140 of 225 (3.8460188508 minutes left)
+Z Offset From Map:  0.0
+X: -65, Y: 5, Z: 0.0, M: -0.01
+Working on point 141 of 225 (7.43814821243 minutes left)
+Z Offset From Map:  -0.05
+X: -55, Y: 5, Z: -0.05, M: -0.02
+Working on point 142 of 225 (3.74907810688 minutes left)
+Z Offset From Map:  -0.02
+X: -45, Y: 5, Z: -0.02, M: -0.01
+Working on point 143 of 225 (3.707899038 minutes left)
+Z Offset From Map:  0.0
+X: -35, Y: 5, Z: 0.0, M: -0.02
+Working on point 144 of 225 (3.66453824043 minutes left)
+Z Offset From Map:  0.02
+X: -25, Y: 5, Z: 0.02, M: -0.01
+Working on point 145 of 225 (3.61470921834 minutes left)
+Z Offset From Map:  0.05
+X: -15, Y: 5, Z: 0.05, M: -0.01
+Working on point 146 of 225 (3.57135298252 minutes left)
+Z Offset From Map:  0.07
+X: -5, Y: 5, Z: 0.07, M: -0.01
+Working on point 147 of 225 (3.52464306355 minutes left)
+Z Offset From Map:  0.09
+X: 5, Y: 5, Z: 0.09, M: -0.01
+Working on point 148 of 225 (3.48519595067 minutes left)
+Z Offset From Map:  0.11
+X: 15, Y: 5, Z: 0.11, M: -0.0
+Working on point 149 of 225 (3.434881862 minutes left)
+Z Offset From Map:  0.12
+X: 25, Y: 5, Z: 0.12, M: -0.0
+Working on point 150 of 225 (3.38916510344 minutes left)
+Z Offset From Map:  0.13
+X: 35, Y: 5, Z: 0.13, M: -0.0
+Working on point 151 of 225 (3.34866662025 minutes left)
+Z Offset From Map:  0.14
+X: 45, Y: 5, Z: 0.14, M: -0.0
+Working on point 152 of 225 (3.29872152011 minutes left)
+Z Offset From Map:  0.14
+X: 55, Y: 5, Z: 0.14, M: -0.0
+Working on point 153 of 225 (3.25436267853 minutes left)
+Z Offset From Map:  0.13
+X: 65, Y: 5, Z: 0.13, M: -0.0
+Working on point 154 of 225 (3.21313105424 minutes left)
+Z Offset From Map:  0.09
+X: -65, Y: 15, Z: 0.09, M: 0.15
+Working on point 155 of 225 (6.20205477873 minutes left)
+Z Offset From Map:  -0.08
+X: -55, Y: 15, Z: -0.08, M: -0.01
+Working on point 156 of 225 (3.11384596825 minutes left)
+Z Offset From Map:  -0.04
+X: -45, Y: 15, Z: -0.04, M: -0.0
+Working on point 157 of 225 (3.07704421679 minutes left)
+Z Offset From Map:  0.0
+X: -35, Y: 15, Z: 0.0, M: -0.0
+Working on point 158 of 225 (3.02809743881 minutes left)
+Z Offset From Map:  0.02
+X: -25, Y: 15, Z: 0.02, M: -0.01
+Working on point 159 of 225 (2.98284137249 minutes left)
+Z Offset From Map:  0.06
+X: -15, Y: 15, Z: 0.06, M: -0.0
+Working on point 160 of 225 (2.94161719084 minutes left)
+Z Offset From Map:  0.09
+X: -5, Y: 15, Z: 0.09, M: -0.01
+Working on point 161 of 225 (2.89173456828 minutes left)
+Z Offset From Map:  0.1
+X: 5, Y: 15, Z: 0.1, M: -0.0
+Working on point 162 of 225 (2.85159430504 minutes left)
+Z Offset From Map:  0.1
+X: 15, Y: 15, Z: 0.1, M: -0.01
+Working on point 163 of 225 (2.80198254585 minutes left)
+Z Offset From Map:  0.1
+X: 25, Y: 15, Z: 0.1, M: -0.0
+Working on point 164 of 225 (2.75998352369 minutes left)
+Z Offset From Map:  0.1
+X: 35, Y: 15, Z: 0.1, M: -0.0
+Working on point 165 of 225 (2.71273994446 minutes left)
+Z Offset From Map:  0.1
+X: 45, Y: 15, Z: 0.1, M: -0.0
+Working on point 166 of 225 (2.66530929406 minutes left)
+Z Offset From Map:  0.09
+X: 55, Y: 15, Z: 0.09, M: -0.0
+Working on point 167 of 225 (2.62530725797 minutes left)
+Z Offset From Map:  0.07
+X: 65, Y: 15, Z: 0.07, M: -0.0
+Working on point 168 of 225 (2.57579877377 minutes left)
+Z Offset From Map:  -0.14
+X: -65, Y: 25, Z: -0.14, M: -0.0
+Working on point 169 of 225 (4.96261447271 minutes left)
+Z Offset From Map:  -0.11
+X: -55, Y: 25, Z: -0.11, M: -0.01
+Working on point 170 of 225 (2.48493206501 minutes left)
+Z Offset From Map:  -0.07
+X: -45, Y: 25, Z: -0.07, M: -0.03
+Working on point 171 of 225 (2.84954409599 minutes left)
+Z Offset From Map:  -0.02
+X: -35, Y: 25, Z: -0.02, M: -0.02
+Working on point 172 of 225 (2.39469536543 minutes left)
+Z Offset From Map:  0.03
+X: -25, Y: 25, Z: 0.03, M: -0.02
+Working on point 173 of 225 (2.35315675735 minutes left)
+Z Offset From Map:  0.07
+X: -15, Y: 25, Z: 0.07, M: -0.01
+Working on point 174 of 225 (2.30590879917 minutes left)
+Z Offset From Map:  0.1
+X: -5, Y: 25, Z: 0.1, M: -0.01
+Working on point 175 of 225 (2.26023415724 minutes left)
+Z Offset From Map:  0.1
+X: 5, Y: 25, Z: 0.1, M: -0.01
+Working on point 176 of 225 (2.21668722232 minutes left)
+Z Offset From Map:  0.1
+X: 15, Y: 25, Z: 0.1, M: -0.01
+Working on point 177 of 225 (2.17247047424 minutes left)
+Z Offset From Map:  0.09
+X: 25, Y: 25, Z: 0.09, M: -0.01
+Working on point 178 of 225 (2.12420026859 minutes left)
+Z Offset From Map:  0.06
+X: 35, Y: 25, Z: 0.06, M: -0.0
+Working on point 179 of 225 (2.08095943133 minutes left)
+Z Offset From Map:  0.05
+X: 45, Y: 25, Z: 0.05, M: -0.0
+Working on point 180 of 225 (2.03449881077 minutes left)
+Z Offset From Map:  0.04
+X: 55, Y: 25, Z: 0.04, M: -0.0
+Working on point 181 of 225 (1.99069414139 minutes left)
+Z Offset From Map:  0.01
+X: 65, Y: 25, Z: 0.01, M: 0.01
+Working on point 182 of 225 (1.94633344809 minutes left)
+Z Offset From Map:  -0.18
+X: -65, Y: 35, Z: -0.18, M: -0.01
+Working on point 183 of 225 (3.95430278778 minutes left)
+Z Offset From Map:  -0.14
+X: -55, Y: 35, Z: -0.14, M: -0.01
+Working on point 184 of 225 (2.31957436005 minutes left)
+Z Offset From Map:  -0.07
+X: -45, Y: 35, Z: -0.07, M: -0.01
+Working on point 185 of 225 (1.80772860845 minutes left)
+Z Offset From Map:  -0.01
+X: -35, Y: 35, Z: -0.01, M: -0.01
+Working on point 186 of 225 (1.76521424055 minutes left)
+Z Offset From Map:  0.04
+X: -25, Y: 35, Z: 0.04, M: -0.01
+Working on point 187 of 225 (1.71747898261 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: 35, Z: 0.08, M: -0.01
+Working on point 188 of 225 (1.67312461933 minutes left)
+Z Offset From Map:  0.11
+X: -5, Y: 35, Z: 0.11, M: -0.01
+Working on point 189 of 225 (1.62863101959 minutes left)
+Z Offset From Map:  0.11
+X: 5, Y: 35, Z: 0.11, M: -0.01
+Working on point 190 of 225 (1.58348111312 minutes left)
+Z Offset From Map:  0.11
+X: 15, Y: 35, Z: 0.11, M: -0.0
+Working on point 191 of 225 (1.53628884157 minutes left)
+Z Offset From Map:  0.08
+X: 25, Y: 35, Z: 0.08, M: -0.01
+Working on point 192 of 225 (1.61771337986 minutes left)
+Z Offset From Map:  0.05
+X: 35, Y: 35, Z: 0.05, M: -0.0
+Working on point 193 of 225 (1.44844373067 minutes left)
+Z Offset From Map:  0.02
+X: 45, Y: 35, Z: 0.02, M: 0.01
+Working on point 194 of 225 (1.75419702133 minutes left)
+Z Offset From Map:  -0.01
+X: 55, Y: 35, Z: -0.01, M: -0.0
+Working on point 195 of 225 (1.35582697392 minutes left)
+Z Offset From Map:  -0.05
+X: 65, Y: 35, Z: -0.05, M: -0.0
+Working on point 196 of 225 (1.31046311458 minutes left)
+Z Offset From Map:  -0.08
+X: -55, Y: 45, Z: -0.08, M: -0.0
+Working on point 197 of 225 (2.48107436498 minutes left)
+Z Offset From Map:  -0.08
+X: -45, Y: 45, Z: -0.08, M: -0.01
+Working on point 198 of 225 (1.22152959108 minutes left)
+Z Offset From Map:  -0.02
+X: -35, Y: 45, Z: -0.02, M: -0.02
+Working on point 199 of 225 (1.17546433608 minutes left)
+Z Offset From Map:  0.03
+X: -25, Y: 45, Z: 0.03, M: -0.02
+Working on point 200 of 225 (1.13109211127 minutes left)
+Z Offset From Map:  0.08
+X: -15, Y: 45, Z: 0.08, M: -0.02
+Working on point 201 of 225 (1.0850771904 minutes left)
+Z Offset From Map:  0.13
+X: -5, Y: 45, Z: 0.13, M: -0.01
+Working on point 202 of 225 (1.04066679875 minutes left)
+Z Offset From Map:  0.12
+X: 5, Y: 45, Z: 0.12, M: -0.01
+Working on point 203 of 225 (0.995616936684 minutes left)
+Z Offset From Map:  0.1
+X: 15, Y: 45, Z: 0.1, M: -0.01
+Working on point 204 of 225 (0.949137711525 minutes left)
+Z Offset From Map:  0.07
+X: 25, Y: 45, Z: 0.07, M: -0.0
+Working on point 205 of 225 (1.13175328573 minutes left)
+Z Offset From Map:  0.03
+X: 35, Y: 45, Z: 0.03, M: -0.01
+Working on point 206 of 225 (0.858748400211 minutes left)
+Z Offset From Map:  0.0
+X: 45, Y: 45, Z: 0.0, M: -0.0
+Working on point 207 of 225 (0.814643740654 minutes left)
+Z Offset From Map:  -0.05
+X: 55, Y: 45, Z: -0.05, M: -0.0
+Working on point 208 of 225 (0.769439256191 minutes left)
+Z Offset From Map:  -0.04
+X: -45, Y: 55, Z: -0.04, M: -0.01
+Working on point 209 of 225 (1.32694447835 minutes left)
+Z Offset From Map:  -0.02
+X: -35, Y: 55, Z: -0.02, M: -0.01
+Working on point 210 of 225 (0.677855014801 minutes left)
+Z Offset From Map:  0.03
+X: -25, Y: 55, Z: 0.03, M: -0.01
+Working on point 211 of 225 (0.633708818754 minutes left)
+Z Offset From Map:  0.07
+X: -15, Y: 55, Z: 0.07, M: -0.01
+Working on point 212 of 225 (0.588258866469 minutes left)
+Z Offset From Map:  0.1
+X: -5, Y: 55, Z: 0.1, M: -0.02
+Working on point 213 of 225 (0.542971992493 minutes left)
+Z Offset From Map:  0.09
+X: 5, Y: 55, Z: 0.09, M: -0.02
+Working on point 214 of 225 (0.497353621324 minutes left)
+Z Offset From Map:  0.08
+X: 15, Y: 55, Z: 0.08, M: -0.01
+Working on point 215 of 225 (0.452456672986 minutes left)
+Z Offset From Map:  0.05
+X: 25, Y: 55, Z: 0.05, M: -0.01
+Working on point 216 of 225 (0.407358884811 minutes left)
+Z Offset From Map:  0.02
+X: 35, Y: 55, Z: 0.02, M: -0.0
+Working on point 217 of 225 (0.361541048686 minutes left)
+Z Offset From Map:  -0.03
+X: 45, Y: 55, Z: -0.03, M: -0.0
+Working on point 218 of 225 (0.316793270906 minutes left)
+Z Offset From Map:  0.0
+X: -35, Y: 65, Z: 0.0, M: -0.0
+Working on point 219 of 225 (0.407109999657 minutes left)
+Z Offset From Map:  0.01
+X: -25, Y: 65, Z: 0.01, M: -0.01
+Working on point 220 of 225 (0.226312001546 minutes left)
+Z Offset From Map:  0.05
+X: -15, Y: 65, Z: 0.05, M: -0.01
+Working on point 221 of 225 (0.181050539017 minutes left)
+Z Offset From Map:  0.08
+X: -5, Y: 65, Z: 0.08, M: -0.02
+Working on point 222 of 225 (0.135766041279 minutes left)
+Z Offset From Map:  0.07
+X: 5, Y: 65, Z: 0.07, M: -0.0
+Working on point 223 of 225 (0.09051100413 minutes left)
+Z Offset From Map:  0.05
+X: 15, Y: 65, Z: 0.05, M: -0.0
+Working on point 224 of 225 (0.045197168986 minutes left)
+Z Offset From Map:  0.02
+X: 25, Y: 65, Z: 0.02, M: -0.0
+Working on point 225 of 225 (0.0 minutes left)
+Z Offset From Map:  -0.02
+X: 35, Y: 65, Z: -0.02, M: -0.01

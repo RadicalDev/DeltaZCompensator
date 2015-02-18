@@ -8,7 +8,7 @@ from postprocessor import CuraPostProcessor
 
 
 if __name__ == "__main__":
-    engine = KDTreeInterpolationEngine("../csv/zmap_3mm.csv")
-    processor = CuraPostProcessor("../gcode/test_cura.gcode")
+    engine = KDTreeInterpolationEngine("../csv/zmap_2mm_z0.csv")
+    processor = CuraPostProcessor("../gcode/test_circle.gcode")
     processor.set_interpolation_engine(engine)
     processor.process()

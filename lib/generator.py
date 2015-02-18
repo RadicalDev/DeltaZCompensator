@@ -5,7 +5,8 @@ import matplotlib
 matplotlib.use('TKAgg')
 from math import pi
 from matplotlib import pyplot as plt
-
+import random
+from coordinates import get_points, sets
 plt.ion()
 
 
@@ -51,31 +52,24 @@ class ZMapGenerator(object):
         self.tree = None
         self.zmap = None
 
+        self.left_right_horizontal_map = None
+        self.right_left_horizontal_map = None
+        self.up_down_vertical_map = None
+        self.down_up_vertical_map = None
+        self.diagonal_45_left_right_map = None
+        self.diagonal_45_right_left_map = None
+        self.diagonal_315_left_right_map = None
+        self.diagonal_315_right_left_map = None
+
     def generate_circumference(self,n=100):
         points = sorted(list(set([(round(math.cos(2*pi/n*x)*self.r), round(math.sin(2*pi/n*x)*self.r)) for x in xrange(0,n+1)])))
         self.redraw(self.axes.scatter([x[0] for x in points], [y[1] for y in points], marker="+", color='red'))
 
-    # def generate_coordinates(self, plot=True):
-    #     r = 0
-    #     for angle in np.arange(0, 360, 2):
-    #         r += 0.38
-    #         x = r*np.cos(angle)
-    #         y = r*np.sin(angle)
-    #         self.points.append(("inside", x, y))
-    #         if plot:
-    #             self.redraw(self.axes.scatter(x, y, color='blue'))
-
     def generate_coordinates(self, plot=True):
-        for y in np.arange(self.r, -self.r, -self.step_size):
-            for x in np.arange(-self.r, self.r, self.step_size):
-                if math.sqrt(x**2+y**2) <= self.r:
-                    self.points.append(('inside', x, y))
-                    if plot:
-                        self.redraw(self.axes.scatter(x, y, color='blue'))
-                else:
-                    self.points.append(('outside', x, y))
-                    if plot:
-                        self.redraw(self.axes.scatter(x, y, marker=".", color='black'))
+        self.points = get_points(self.r, self.step_size)
+        if plot:
+            for x, y in self.points:
+                self.redraw(self.axes.scatter(x, y, color='blue'))
 
     def redraw(self, points):
         self.axes.draw_artist(points)
@@ -115,47 +109,62 @@ class ZMapGenerator(object):
         if use_computed_offsets and not recompute_offsets:
             mode = 'r'
 
-        with open(self.csv_file, mode) as f:
-            for where, x, y in sorted(self.points, key=lambda g: g[1], reverse=True):
-                if where == 'inside':
+        for s, desc in sets:
+            map_file_name = "{0}_{1}.csv".format(self.csv_file, desc)
+            print "Working on: ", map_file_name
+            with open(map_file_name, mode) as f:
+                n_points = len(self.points)
+                current_point = 0
+                top_time = time.time()
+                bottom_time = time.time()
+                time_taken = 0
+                for x, y in s(self.points):
+                    current_point += 1
+                    time_taken = bottom_time-top_time
+                    top_time = time.time()
 
-                    if use_interp:
-                        z = -self.get_z_offset_kdtree(x, y)
-                        print "Z Offset from KDTree: ", z
-                    elif use_computed_offsets:
-                        z = -self.get_z_offset_literal(x, y)
-                        print "Z Offset From Map: ", z
+                    print "Working on point {0} of {1} ({2} minutes left)".format(current_point, n_points, (time_taken*(n_points-current_point))/60.0)
+                    # if use_interp:
+                    #     z = -self.get_z_offset_kdtree(x, y)
+                    #     print "Z Offset from KDTree: ", z
+                    #
+                    # elif use_computed_offsets:
+                    #     z = -self.get_z_offset_literal(x, y)
+                    #     print "Z Offset From Map: ", z
 
                     gcode = "G1 S1 X{0} Y{1} Z{2} F{3}"
-                    gcode_go = gcode.format(x, y, z, self.point_speed)
+                    gcode_go = gcode.format(x, y, 0, self.point_speed)
                     self.printer.write(gcode_go)
                     time.sleep(self.wtp)
                     measurement = self.dial.read()
 
-                    if recompute_offsets:
-                        while measurement < -0.01 or measurement > 0.01:
-                            old_z = z
-                            if measurement < 0:
-                                z = z + abs(measurement)
-                            else:
-                                z = z - abs(measurement)
-                            print "{0} -> {1}".format(old_z, z)
-                            gcode_go = gcode.format(x, y, 15, self.point_speed)
-                            print "PRINTER GO UP: ", gcode_go
-                            self.printer.write(gcode_go)
-                            gcode_go = gcode.format(x, y, z, self.point_speed)
-                            print "PRINTER GO DOWN: ", gcode_go
-                            self.printer.write(gcode_go)
-                            time.sleep(self.wtp)
-                            measurement = self.dial.read()
-                            print "Did it work? ", measurement
-                        measurement = z
+                    # if recompute_offsets:
+                    #     while measurement < -0.01 or measurement > 0.01:
+                    #         old_z = z
+                    #         if measurement < 0:
+                    #             z = z + abs(measurement)
+                    #         else:
+                    #             z = z - abs(measurement)
+                    #         print "{0} -> {1}".format(old_z, z)
+                    #         gcode_go = gcode.format(x, y, 15, self.point_speed)
+                    #         print "PRINTER GO UP: ", gcode_go
+                    #         self.printer.write(gcode_go)
+                    #         gcode_go = gcode.format(x, y, z, self.point_speed)
+                    #         print "PRINTER GO DOWN: ", gcode_go
+                    #         self.printer.write(gcode_go)
+                    #         time.sleep(self.wtp)
+                    #         measurement = self.dial.read()
+                    #         print "Did it work? ", measurement
+                    #     measurement = z
 
                     print "X: {0}, Y: {1}, Z: {2}, M: {3}".format(x, y, z, measurement)
                     if not use_computed_offsets or recompute_offsets:
                         f.write("{0},{1},{2}\n".format(x, y, measurement))
-                    self.points_adjusted.append((x, y, measurement))
                     self.modify_point(x, y, color='orange')
+                bottom_time = time.time()
+
+        gcode = "G28"
+        self.printer.write(gcode)
 
     def modify_point(self, x, y, marker='o', color='orange'):
         self.redraw(self.axes.scatter(x, y, marker=marker, color=color))
@@ -222,21 +231,9 @@ class ZMapGenerator(object):
 
     def get_z_offset_kdtree(self, x, y):
         xy = np.array([x,y])
-        distances, indices = self.tree.query(xy, k=2)
+        distances, indices = self.tree.query(xy, k=6)
         z_vals = self.Z[indices]
         delta_z = np.average(z_vals, weights=[(0.001/j) if j else 1 for j in distances])
         if not delta_z:
             delta_z = 0.00
         return delta_z
-
-    @staticmethod
-    def actual_z(z, m):
-        return -z+m
-
-    @staticmethod
-    def new_z(z, m):
-        return z + -m
-
-    @staticmethod
-    def shouldbezero(az, zn):
-        return az + zn

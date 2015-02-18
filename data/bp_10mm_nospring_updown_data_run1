@@ -1,0 +1,398 @@
+Connected to printer on port /dev/ttyACM0
+Working on point 1 of 225 (3.56038411458e-06 minutes left)
+Working on point 2 of 225 (0.000237480799357 minutes left)
+Working on point 3 of 225 (5.11646270752e-05 minutes left)
+Working on point 4 of 225 (5.53250312805e-05 minutes left)
+Working on point 5 of 225 (7.34329223633e-05 minutes left)
+Working on point 6 of 225 (9.13739204407e-05 minutes left)
+Working on point 7 of 225 (4.33127085368e-05 minutes left)
+Working on point 8 of 225 (3.19043795268e-05 minutes left)
+Working on point 9 of 225 (3.60488891602e-05 minutes left)
+Working on point 10 of 225 (3.24646631877e-05 minutes left)
+Working on point 11 of 225 (3.14633051554e-05 minutes left)
+Working on point 12 of 225 (3.1316280365e-05 minutes left)
+Working on point 13 of 225 (3.53813171387e-05 minutes left)
+Working on point 14 of 225 (3.10222307841e-05 minutes left)
+Working on point 15 of 225 (3.08752059937e-05 minutes left)
+Working on point 16 of 225 (3.07281812032e-05 minutes left)
+Working on point 17 of 225 (3.05811564128e-05 minutes left)
+Working on point 18 of 225 (3.12566757202e-05 minutes left)
+Working on point 19 of 225 (3.11056772868e-05 minutes left)
+Working on point 20 of 225 (3.09546788534e-05 minutes left)
+X: 35, Y: 65, Z: 0, M: 0.17
+Working on point 21 of 225 (14.8762613297 minutes left)
+X: 25, Y: 65, Z: 0, M: 0.14
+Working on point 22 of 225 (11.0705573122 minutes left)
+X: 15, Y: 65, Z: 0, M: 0.11
+Working on point 23 of 225 (9.11370157401 minutes left)
+X: 5, Y: 65, Z: 0, M: 0.09
+Working on point 24 of 225 (9.05948861837 minutes left)
+X: -5, Y: 65, Z: 0, M: 0.08
+Working on point 25 of 225 (9.00879700979 minutes left)
+X: -15, Y: 65, Z: 0, M: 0.08
+Working on point 26 of 225 (9.72640691996 minutes left)
+X: -25, Y: 65, Z: 0, M: 0.1
+Working on point 27 of 225 (11.1612670898 minutes left)
+X: -35, Y: 65, Z: 0, M: 0.14
+Working on point 28 of 225 (8.88004415433 minutes left)
+Working on point 29 of 225 (0.000144084294637 minutes left)
+Working on point 30 of 225 (3.25441360474e-05 minutes left)
+Working on point 31 of 225 (5.47329584757e-05 minutes left)
+Working on point 32 of 225 (3.14434369405e-05 minutes left)
+Working on point 33 of 225 (2.82287597656e-05 minutes left)
+Working on point 34 of 225 (2.80817349752e-05 minutes left)
+X: 45, Y: 55, Z: 0, M: 0.17
+Working on point 35 of 225 (16.4285902977 minutes left)
+X: 35, Y: 55, Z: 0, M: 0.13
+Working on point 36 of 225 (9.58870410919 minutes left)
+X: 25, Y: 55, Z: 0, M: 0.1
+Working on point 37 of 225 (8.47041246096 minutes left)
+X: 15, Y: 55, Z: 0, M: 0.07
+Working on point 38 of 225 (8.43932532867 minutes left)
+X: 5, Y: 55, Z: 0, M: 0.05
+Working on point 39 of 225 (9.0792958498 minutes left)
+X: -5, Y: 55, Z: 0, M: 0.05
+Working on point 40 of 225 (8.34498008092 minutes left)
+X: -15, Y: 55, Z: 0, M: 0.06
+Working on point 41 of 225 (8.30267457962 minutes left)
+X: -25, Y: 55, Z: 0, M: 0.08
+Working on point 42 of 225 (8.24573254585 minutes left)
+X: -35, Y: 55, Z: 0, M: 0.11
+Working on point 43 of 225 (8.20947093964 minutes left)
+X: -45, Y: 55, Z: 0, M: 0.17
+Working on point 44 of 225 (8.16961576939 minutes left)
+Working on point 45 of 225 (0.000153064727783 minutes left)
+Working on point 46 of 225 (3.5564104716e-05 minutes left)
+Working on point 47 of 225 (4.73896662394e-05 minutes left)
+Working on point 48 of 225 (2.67267227173e-05 minutes left)
+X: 55, Y: 45, Z: 0, M: 0.19
+Working on point 49 of 225 (15.8588641485 minutes left)
+X: 45, Y: 45, Z: 0, M: 0.15
+Working on point 50 of 225 (7.89492925008 minutes left)
+X: 35, Y: 45, Z: 0, M: 0.11
+Working on point 51 of 225 (7.84222364426 minutes left)
+X: 25, Y: 45, Z: 0, M: 0.07
+Working on point 52 of 225 (7.80337266525 minutes left)
+X: 15, Y: 45, Z: 0, M: 0.04
+Working on point 53 of 225 (8.4067928791 minutes left)
+X: 5, Y: 45, Z: 0, M: 0.01
+Working on point 54 of 225 (7.7045130372 minutes left)
+X: -5, Y: 45, Z: 0, M: 0.01
+Working on point 55 of 225 (8.31003924211 minutes left)
+X: -15, Y: 45, Z: 0, M: 0.04
+Working on point 56 of 225 (7.61445549726 minutes left)
+X: -25, Y: 45, Z: 0, M: 0.07
+Working on point 57 of 225 (7.58055200577 minutes left)
+X: -35, Y: 45, Z: 0, M: 0.11
+Working on point 58 of 225 (7.52389301459 minutes left)
+X: -45, Y: 45, Z: 0, M: 0.15
+Working on point 59 of 225 (7.48892410596 minutes left)
+X: -55, Y: 45, Z: 0, M: 0.2
+Working on point 60 of 225 (7.43562889099 minutes left)
+Working on point 61 of 225 (0.000119908650716 minutes left)
+Working on point 62 of 225 (2.39650408427e-05 minutes left)
+X: 65, Y: 35, Z: 0, M: 0.19
+Working on point 63 of 225 (14.6086629868 minutes left)
+X: 55, Y: 35, Z: 0, M: 0.17
+Working on point 64 of 225 (7.26511151393 minutes left)
+X: 45, Y: 35, Z: 0, M: 0.12
+Working on point 65 of 225 (7.20826148987 minutes left)
+X: 35, Y: 35, Z: 0, M: 0.08
+Working on point 66 of 225 (8.66230678558 minutes left)
+X: 25, Y: 35, Z: 0, M: 0.04
+Working on point 67 of 225 (10.0940800905 minutes left)
+X: 15, Y: 35, Z: 0, M: 0.02
+Working on point 68 of 225 (7.67283318837 minutes left)
+X: 5, Y: 35, Z: 0, M: 0.01
+Working on point 69 of 225 (7.0300702095 minutes left)
+X: -5, Y: 35, Z: 0, M: 0.01
+Working on point 70 of 225 (6.98976113399 minutes left)
+X: -15, Y: 35, Z: 0, M: 0.03
+Working on point 71 of 225 (6.94289494356 minutes left)
+X: -25, Y: 35, Z: 0, M: 0.05
+Working on point 72 of 225 (6.89153577089 minutes left)
+X: -35, Y: 35, Z: 0, M: 0.09
+Working on point 73 of 225 (8.28809382121 minutes left)
+X: -45, Y: 35, Z: 0, M: 0.13
+Working on point 74 of 225 (6.81530479987 minutes left)
+X: -55, Y: 35, Z: 0, M: 0.18
+Working on point 75 of 225 (6.75876021385 minutes left)
+X: -65, Y: 35, Z: 0, M: 0.25
+Working on point 76 of 225 (6.72285525799 minutes left)
+Working on point 77 of 225 (0.000143496195475 minutes left)
+X: 65, Y: 25, Z: 0, M: 0.14
+Working on point 78 of 225 (14.9031489253 minutes left)
+X: 55, Y: 25, Z: 0, M: 0.11
+Working on point 79 of 225 (7.40525869528 minutes left)
+X: 45, Y: 25, Z: 0, M: 0.09
+Working on point 80 of 225 (7.62085884809 minutes left)
+X: 35, Y: 25, Z: 0, M: 0.07
+Working on point 81 of 225 (6.49923362732 minutes left)
+X: 25, Y: 25, Z: 0, M: 0.03
+Working on point 82 of 225 (6.43714973132 minutes left)
+X: 15, Y: 25, Z: 0, M: 0.01
+Working on point 83 of 225 (6.40099071662 minutes left)
+X: 5, Y: 25, Z: 0, M: -0.0
+Working on point 84 of 225 (7.41572852135 minutes left)
+X: -5, Y: 25, Z: 0, M: -0.0
+Working on point 85 of 225 (7.88963206609 minutes left)
+X: -15, Y: 25, Z: 0, M: 0.02
+Working on point 86 of 225 (6.28122725089 minutes left)
+X: -25, Y: 25, Z: 0, M: 0.05
+Working on point 87 of 225 (6.21698076725 minutes left)
+X: -35, Y: 25, Z: 0, M: 0.08
+Working on point 88 of 225 (6.17399886052 minutes left)
+X: -45, Y: 25, Z: 0, M: 0.1
+Working on point 89 of 225 (6.13481235504 minutes left)
+X: -55, Y: 25, Z: 0, M: 0.14
+Working on point 90 of 225 (8.36227369308 minutes left)
+X: -65, Y: 25, Z: 0, M: 0.22
+Working on point 91 of 225 (6.04446087678 minutes left)
+Working on point 92 of 225 (0.000119439760844 minutes left)
+X: 65, Y: 15, Z: 0, M: 0.08
+Working on point 93 of 225 (13.886155653 minutes left)
+X: 55, Y: 15, Z: 0, M: 0.07
+Working on point 94 of 225 (5.90945361853 minutes left)
+X: 45, Y: 15, Z: 0, M: 0.05
+Working on point 95 of 225 (6.83541278044 minutes left)
+X: 35, Y: 15, Z: 0, M: 0.04
+Working on point 96 of 225 (5.81230823994 minutes left)
+X: 25, Y: 15, Z: 0, M: 0.02
+Working on point 97 of 225 (6.49333750407 minutes left)
+X: 15, Y: 15, Z: 0, M: -0.0
+Working on point 98 of 225 (8.09900146723 minutes left)
+X: 5, Y: 15, Z: 0, M: -0.0
+Working on point 99 of 225 (5.68992912769 minutes left)
+X: -5, Y: 15, Z: 0, M: -0.0
+Working on point 100 of 225 (6.09480440617 minutes left)
+X: -15, Y: 15, Z: 0, M: 0.02
+Working on point 101 of 225 (5.6004617691 minutes left)
+X: -25, Y: 15, Z: 0, M: 0.04
+Working on point 102 of 225 (5.54692726135 minutes left)
+X: -35, Y: 15, Z: 0, M: 0.04
+Working on point 103 of 225 (7.09393221537 minutes left)
+X: -45, Y: 15, Z: 0, M: 0.07
+Working on point 104 of 225 (5.46459986766 minutes left)
+X: -55, Y: 15, Z: 0, M: 0.1
+Working on point 105 of 225 (5.41045999527 minutes left)
+X: -65, Y: 15, Z: 0, M: 0.16
+Working on point 106 of 225 (5.36377029419 minutes left)
+Working on point 107 of 225 (0.000110189119975 minutes left)
+X: 65, Y: 5, Z: 0, M: 0.04
+Working on point 108 of 225 (12.0848404527 minutes left)
+X: 55, Y: 5, Z: 0, M: 0.04
+Working on point 109 of 225 (5.22920419375 minutes left)
+X: 45, Y: 5, Z: 0, M: 0.02
+Working on point 110 of 225 (6.05036660035 minutes left)
+X: 35, Y: 5, Z: 0, M: 0.01
+Working on point 111 of 225 (5.13636105061 minutes left)
+X: 25, Y: 5, Z: 0, M: 0.01
+Working on point 112 of 225 (5.08928061326 minutes left)
+X: 15, Y: 5, Z: 0, M: -0.0
+Working on point 113 of 225 (5.04571940104 minutes left)
+X: 5, Y: 5, Z: 0, M: -0.01
+Working on point 114 of 225 (5.42826656103 minutes left)
+X: -5, Y: 5, Z: 0, M: 0.01
+Working on point 115 of 225 (4.96376832326 minutes left)
+X: -15, Y: 5, Z: 0, M: 0.01
+Working on point 116 of 225 (5.52355667353 minutes left)
+X: -25, Y: 5, Z: 0, M: 0.02
+Working on point 117 of 225 (4.87013068199 minutes left)
+X: -35, Y: 5, Z: 0, M: 0.01
+Working on point 118 of 225 (4.82095983028 minutes left)
+X: -45, Y: 5, Z: 0, M: 0.03
+Working on point 119 of 225 (5.38033201694 minutes left)
+X: -55, Y: 5, Z: 0, M: 0.05
+Working on point 120 of 225 (6.69015353918 minutes left)
+X: -65, Y: 5, Z: 0, M: 0.09
+Working on point 121 of 225 (4.69794378281 minutes left)
+Working on point 122 of 225 (6.83506329854e-05 minutes left)
+X: 65, Y: -5, Z: 0, M: 0.01
+Working on point 123 of 225 (10.7254957914 minutes left)
+X: 55, Y: -5, Z: 0, M: 0.01
+Working on point 124 of 225 (4.55610831181 minutes left)
+X: 45, Y: -5, Z: 0, M: -0.0
+Working on point 125 of 225 (5.0661166509 minutes left)
+X: 35, Y: -5, Z: 0, M: -0.02
+Working on point 126 of 225 (5.94671541452 minutes left)
+X: 25, Y: -5, Z: 0, M: -0.02
+Working on point 127 of 225 (5.15862196287 minutes left)
+X: 15, Y: -5, Z: 0, M: -0.01
+Working on point 128 of 225 (4.37047260205 minutes left)
+X: 5, Y: -5, Z: 0, M: -0.0
+Working on point 129 of 225 (4.32565917969 minutes left)
+X: -5, Y: -5, Z: 0, M: 0.01
+Working on point 130 of 225 (4.28530118863 minutes left)
+X: -15, Y: -5, Z: 0, M: -0.0
+Working on point 131 of 225 (4.23680079778 minutes left)
+X: -25, Y: -5, Z: 0, M: -0.02
+Working on point 132 of 225 (4.18810132742 minutes left)
+X: -35, Y: -5, Z: 0, M: -0.02
+Working on point 133 of 225 (4.66849854787 minutes left)
+X: -45, Y: -5, Z: 0, M: -0.02
+Working on point 134 of 225 (4.43603477478 minutes left)
+X: -55, Y: -5, Z: 0, M: -0.0
+Working on point 135 of 225 (4.05977261066 minutes left)
+X: -65, Y: -5, Z: 0, M: 0.04
+Working on point 136 of 225 (4.01745718718 minutes left)
+Working on point 137 of 225 (5.73476155599e-05 minutes left)
+X: 65, Y: -15, Z: 0, M: -0.02
+Working on point 138 of 225 (8.16382478476 minutes left)
+X: 55, Y: -15, Z: 0, M: -0.01
+Working on point 139 of 225 (4.84909125169 minutes left)
+X: 45, Y: -15, Z: 0, M: -0.02
+Working on point 140 of 225 (4.46588718891 minutes left)
+X: 35, Y: -15, Z: 0, M: -0.03
+Working on point 141 of 225 (3.78836774826 minutes left)
+X: 25, Y: -15, Z: 0, M: -0.02
+Working on point 142 of 225 (3.73814713558 minutes left)
+X: 15, Y: -15, Z: 0, M: -0.01
+Working on point 143 of 225 (4.15793705781 minutes left)
+X: 5, Y: -15, Z: 0, M: -0.0
+Working on point 144 of 225 (5.02222824097 minutes left)
+X: -5, Y: -15, Z: 0, M: -0.01
+Working on point 145 of 225 (5.10114796956 minutes left)
+X: -15, Y: -15, Z: 0, M: -0.02
+Working on point 146 of 225 (3.56793473164 minutes left)
+X: -25, Y: -15, Z: 0, M: -0.04
+Working on point 147 of 225 (3.80898458958 minutes left)
+X: -35, Y: -15, Z: 0, M: -0.06
+Working on point 148 of 225 (3.47117424011 minutes left)
+X: -45, Y: -15, Z: 0, M: -0.06
+Working on point 149 of 225 (3.42784956296 minutes left)
+X: -55, Y: -15, Z: 0, M: -0.03
+Working on point 150 of 225 (3.37327361107 minutes left)
+X: -65, Y: -15, Z: 0, M: 0.01
+Working on point 151 of 225 (3.34377040068 minutes left)
+Working on point 152 of 225 (6.81678454081e-05 minutes left)
+X: 65, Y: -25, Z: 0, M: -0.03
+Working on point 153 of 225 (7.42992353439 minutes left)
+X: 55, Y: -25, Z: 0, M: -0.01
+Working on point 154 of 225 (3.7330275774 minutes left)
+X: 45, Y: -25, Z: 0, M: -0.03
+Working on point 155 of 225 (3.15817475319 minutes left)
+X: 35, Y: -25, Z: 0, M: -0.03
+Working on point 156 of 225 (4.2719614625 minutes left)
+X: 25, Y: -25, Z: 0, M: -0.02
+Working on point 157 of 225 (3.06485271454 minutes left)
+X: 15, Y: -25, Z: 0, M: -0.0
+Working on point 158 of 225 (3.397983102 minutes left)
+X: 5, Y: -25, Z: 0, M: 0.01
+Working on point 159 of 225 (2.9776263237 minutes left)
+X: -5, Y: -25, Z: 0, M: -0.0
+Working on point 160 of 225 (2.92880358299 minutes left)
+X: -15, Y: -25, Z: 0, M: -0.02
+Working on point 161 of 225 (2.87840525309 minutes left)
+X: -25, Y: -25, Z: 0, M: -0.06
+Working on point 162 of 225 (3.19606972933 minutes left)
+X: -35, Y: -25, Z: 0, M: -0.07
+Working on point 163 of 225 (2.79712174733 minutes left)
+X: -45, Y: -25, Z: 0, M: -0.08
+Working on point 164 of 225 (2.74473050833 minutes left)
+X: -55, Y: -25, Z: 0, M: -0.07
+Working on point 165 of 225 (2.70379495621 minutes left)
+X: -65, Y: -25, Z: 0, M: -0.04
+Working on point 166 of 225 (3.21337614457 minutes left)
+Working on point 167 of 225 (5.11646270752e-05 minutes left)
+X: 65, Y: -35, Z: 0, M: -0.04
+Working on point 168 of 225 (6.20908789635 minutes left)
+X: 55, Y: -35, Z: 0, M: -0.0
+Working on point 169 of 225 (3.04802214305 minutes left)
+X: 45, Y: -35, Z: 0, M: -0.01
+Working on point 170 of 225 (2.47796358665 minutes left)
+X: 35, Y: -35, Z: 0, M: -0.01
+Working on point 171 of 225 (2.43353154659 minutes left)
+X: 25, Y: -35, Z: 0, M: -0.01
+Working on point 172 of 225 (2.88321679433 minutes left)
+X: 15, Y: -35, Z: 0, M: 0.01
+Working on point 173 of 225 (2.35011413892 minutes left)
+X: 5, Y: -35, Z: 0, M: -0.0
+Working on point 174 of 225 (2.96562190056 minutes left)
+X: -5, Y: -35, Z: 0, M: -0.01
+Working on point 175 of 225 (2.44067649047 minutes left)
+X: -15, Y: -35, Z: 0, M: -0.03
+Working on point 176 of 225 (2.20720589161 minutes left)
+X: -25, Y: -35, Z: 0, M: -0.07
+Working on point 177 of 225 (2.16553993225 minutes left)
+X: -35, Y: -35, Z: 0, M: -0.09
+Working on point 178 of 225 (2.55562279622 minutes left)
+X: -45, Y: -35, Z: 0, M: -0.09
+Working on point 179 of 225 (2.07463680903 minutes left)
+X: -55, Y: -35, Z: 0, M: -0.09
+Working on point 180 of 225 (2.28219670057 minutes left)
+X: -65, Y: -35, Z: 0, M: -0.06
+Working on point 181 of 225 (1.97898508708 minutes left)
+Working on point 182 of 225 (4.2204062144e-05 minutes left)
+Working on point 183 of 225 (2.58684158325e-05 minutes left)
+X: 55, Y: -45, Z: 0, M: -0.01
+Working on point 184 of 225 (3.93004333576 minutes left)
+X: 45, Y: -45, Z: 0, M: 0.01
+Working on point 185 of 225 (2.17878468831 minutes left)
+X: 35, Y: -45, Z: 0, M: -0.0
+Working on point 186 of 225 (1.75699157715 minutes left)
+X: 25, Y: -45, Z: 0, M: -0.0
+Working on point 187 of 225 (2.13727773031 minutes left)
+X: 15, Y: -45, Z: 0, M: 0.02
+Working on point 188 of 225 (1.66958308617 minutes left)
+X: 5, Y: -45, Z: 0, M: 0.01
+Working on point 189 of 225 (1.62467107773 minutes left)
+X: -5, Y: -45, Z: 0, M: -0.01
+Working on point 190 of 225 (1.57418336471 minutes left)
+X: -15, Y: -45, Z: 0, M: -0.04
+Working on point 191 of 225 (1.7247989893 minutes left)
+X: -25, Y: -45, Z: 0, M: -0.07
+Working on point 192 of 225 (1.48655877113 minutes left)
+X: -35, Y: -45, Z: 0, M: -0.09
+Working on point 193 of 225 (1.62143033346 minutes left)
+X: -45, Y: -45, Z: 0, M: -0.1
+Working on point 194 of 225 (1.80515225728 minutes left)
+X: -55, Y: -45, Z: 0, M: -0.08
+Working on point 195 of 225 (1.35139942169 minutes left)
+Working on point 196 of 225 (2.56975491842e-05 minutes left)
+Working on point 197 of 225 (8.90096028646e-06 minutes left)
+Working on point 198 of 225 (4.07695770264e-06 minutes left)
+Working on point 199 of 225 (4.33921813965e-06 minutes left)
+X: 45, Y: -55, Z: 0, M: -0.01
+Working on point 200 of 225 (2.25220004718 minutes left)
+X: 35, Y: -55, Z: 0, M: 0.03
+Working on point 201 of 225 (1.17289476395 minutes left)
+X: 25, Y: -55, Z: 0, M: 0.04
+Working on point 202 of 225 (1.16676582495 minutes left)
+X: 15, Y: -55, Z: 0, M: 0.04
+Working on point 203 of 225 (1.11430368423 minutes left)
+X: 5, Y: -55, Z: 0, M: 0.03
+Working on point 204 of 225 (0.946336996555 minutes left)
+X: -5, Y: -55, Z: 0, M: -0.0
+Working on point 205 of 225 (0.901168346405 minutes left)
+X: -15, Y: -55, Z: 0, M: -0.03
+Working on point 206 of 225 (0.855971841017 minutes left)
+X: -25, Y: -55, Z: 0, M: -0.06
+Working on point 207 of 225 (0.878633666039 minutes left)
+X: -35, Y: -55, Z: 0, M: -0.08
+Working on point 208 of 225 (0.765715726217 minutes left)
+X: -45, Y: -55, Z: 0, M: -0.1
+Working on point 209 of 225 (1.02142505646 minutes left)
+Working on point 210 of 225 (1.19805335999e-05 minutes left)
+Working on point 211 of 225 (4.45048014323e-06 minutes left)
+Working on point 212 of 225 (2.42789586385e-06 minutes left)
+Working on point 213 of 225 (2.00271606445e-06 minutes left)
+Working on point 214 of 225 (1.66098276774e-06 minutes left)
+Working on point 215 of 225 (1.50998433431e-06 minutes left)
+X: 35, Y: -65, Z: 0, M: -0.03
+Working on point 216 of 225 (0.709620738029 minutes left)
+X: 25, Y: -65, Z: 0, M: 0.07
+Working on point 217 of 225 (0.360942395528 minutes left)
+X: 15, Y: -65, Z: 0, M: 0.08
+Working on point 218 of 225 (0.367519481977 minutes left)
+X: 5, Y: -65, Z: 0, M: 0.06
+Working on point 219 of 225 (0.270689487457 minutes left)
+X: -5, Y: -65, Z: 0, M: 0.03
+Working on point 220 of 225 (0.253259738286 minutes left)
+X: -15, Y: -65, Z: 0, M: -0.01
+Working on point 221 of 225 (0.232601992289 minutes left)
+X: -25, Y: -65, Z: 0, M: -0.03
+Working on point 222 of 225 (0.13538210392 minutes left)
+X: -35, Y: -65, Z: 0, M: -0.07
+Working on point 223 of 225 (0.0900290330251 minutes left)
+Working on point 224 of 225 (8.50359598796e-07 minutes left)
+Working on point 225 of 225 (0.0 minutes left)

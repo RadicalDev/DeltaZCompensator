@@ -44,9 +44,9 @@ class Map(object):
                 return triplet[2]
         return 0.00
 
-    def get_z_offset_kdtree(self, x, y):
+    def get_z_offset_kdtree(self, x, y, k=2):
         xy = np.array([x,y])
-        distances, indices = self.tree.query(xy, k=2)
+        distances, indices = self.tree.query(xy, k=k)
         if isinstance(distances, float):
             weights = 1
         else:
@@ -65,7 +65,7 @@ class Map(object):
 
 
 if __name__ == "__main__":
-    map = Map("../csv/zmap_3mm.csv")
+    map = Map("../csv/zmap_10mm_r75_updown.csv")
     map.load_zmap()
     map.generate_kdtree(*map.zmap)
     printer = OrionDelta("/dev/ttyACM0", 115200)
@@ -76,6 +76,7 @@ if __name__ == "__main__":
     w = 0.001
     x, y = 0, 0
     z = 0
+    use_tree = False
     while True:
         command = raw_input("Enter: ")
 
@@ -86,12 +87,16 @@ if __name__ == "__main__":
                 w = float(command[1:])
             elif command.startswith('z'):
                 z = float(command[1:])
+            elif command.startswith("u"):
+                use_tree = not use_tree
             else:
                 try:
                     x, y, z = [float(c) for c in command.split(",")]
+                    if use_tree:
+                        z = z + map.get_z_offset_kdtree(x, y, k=k)
                 except:
                     x, y = [float(c) for c in command.split(",")]
-                    z = map.get_z_offset_kdtree(x, y)
+                    z = map.get_z_offset_kdtree(x, y, k=k)
         except:
             continue
 

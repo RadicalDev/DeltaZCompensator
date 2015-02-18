@@ -88,8 +88,8 @@ class HF93295(DialIndicator):
                 continue
 
             val = self.parse_reading(data)
-            if val < -10 or val > 10:
-                continue
+            # if val < -10 or val > 10:
+            #     continue
 
             if not values or all([val == x for x in values]):
                 values.append(val)

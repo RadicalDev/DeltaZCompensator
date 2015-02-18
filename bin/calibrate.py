@@ -2,7 +2,7 @@ __author__ = 'jfindley'
 import sys
 import os
 sys.path.append(os.path.join("..", "lib"))
-from printer import Printer
+from printer import OrionDelta
 
 if __name__ == "__main__":
 
@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     port = "/dev/ttyACM0"
     rate = 115200
-    p = Printer(port, rate)
+    p = OrionDelta(port, rate)
     p.connect()
     p.write("G28")
     p.write("G1 X0 Y0 Z0")

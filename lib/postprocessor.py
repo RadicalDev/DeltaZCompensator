@@ -36,7 +36,7 @@ class CuraPostProcessor(PostProcessor):
                         try:
                             x, y = re.findall("(?:X|Y)(-?\d+(?:.\d+)?)", line)
                             z = self.interpolation_engine.get_z_offset(x, y, layer_height)
-                            line = line + " Z{0}".format(z)
+                            line = line + " Z{0} S1".format(z)
                         except Exception, e:
                             print "WARNING: Unrecognized movement line: ", line, " Error: ", e
                     out.write(line+"\n")
