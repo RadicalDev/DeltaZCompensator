@@ -124,38 +124,12 @@ class ZMapGenerator(object):
                     top_time = time.time()
 
                     print "Working on point {0} of {1} ({2} minutes left)".format(current_point, n_points, (time_taken*(n_points-current_point))/60.0)
-                    # if use_interp:
-                    #     z = -self.get_z_offset_kdtree(x, y)
-                    #     print "Z Offset from KDTree: ", z
-                    #
-                    # elif use_computed_offsets:
-                    #     z = -self.get_z_offset_literal(x, y)
-                    #     print "Z Offset From Map: ", z
 
                     gcode = "G1 S1 X{0} Y{1} Z{2} F{3}"
                     gcode_go = gcode.format(x, y, 0, self.point_speed)
                     self.printer.write(gcode_go)
                     time.sleep(self.wtp)
                     measurement = self.dial.read()
-
-                    # if recompute_offsets:
-                    #     while measurement < -0.01 or measurement > 0.01:
-                    #         old_z = z
-                    #         if measurement < 0:
-                    #             z = z + abs(measurement)
-                    #         else:
-                    #             z = z - abs(measurement)
-                    #         print "{0} -> {1}".format(old_z, z)
-                    #         gcode_go = gcode.format(x, y, 15, self.point_speed)
-                    #         print "PRINTER GO UP: ", gcode_go
-                    #         self.printer.write(gcode_go)
-                    #         gcode_go = gcode.format(x, y, z, self.point_speed)
-                    #         print "PRINTER GO DOWN: ", gcode_go
-                    #         self.printer.write(gcode_go)
-                    #         time.sleep(self.wtp)
-                    #         measurement = self.dial.read()
-                    #         print "Did it work? ", measurement
-                    #     measurement = z
 
                     print "X: {0}, Y: {1}, Z: {2}, M: {3}".format(x, y, z, measurement)
                     if not use_computed_offsets or recompute_offsets:
