@@ -55,8 +55,8 @@ def diagonal_315_right_left(p):
     return sorted(p, key=lambda z: z[0]+z[1])[::-1]
 
 sets = [
-    left_right_vertical,
-    right_left_vertical,
+    up_down_vertical,
+    down_up_vertical,
     left_right_horizontal,
     right_left_horizontal,
     diagonal_45_left_right,
@@ -66,12 +66,12 @@ sets = [
 ]
 
 if __name__ == "__main__":
-    d = 10
+    d = 75
 
     figure, axes = plt.subplots(1, 1)
     axes.set_aspect('equal')
     axes.hold(True)
-    orig_points = get_points(d, point_spacing=1)
+    orig_points = get_points(d, point_spacing=5)
     for x, y in orig_points:
         axes.scatter(x, y)
     #axes.scatter([x[0] for x in orig_points], [y[1] for y in orig_points])
